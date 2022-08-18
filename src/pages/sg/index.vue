@@ -1,13 +1,13 @@
 <template>
-  <exception-page home-route="/dashboard/workplace" :style="`min-height: ${minHeight}`" type="403" />
+  <div>
+    sg
+  </div>
 </template>
 
 <script>
-import ExceptionPage from '@/components/exception/ExceptionPage'
 import {mapState} from 'vuex'
 export default {
-  name: 'Exp403',
-  components: {ExceptionPage},
+  name: 'sg',
   computed: {
     ...mapState('setting', ['pageMinHeight']),
     minHeight() {

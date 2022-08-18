@@ -13,6 +13,7 @@ import bootstrap from '@/bootstrap'
 import 'moment/locale/zh-cn'
 
 const router = initRouter(store.state.setting.asyncRoutes)
+console.log('router main', router,store.state.setting.asyncRoutes)
 const i18n = initI18n('CN', 'US')
 
 Vue.use(Antd)
